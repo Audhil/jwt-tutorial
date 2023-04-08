@@ -1,0 +1,12 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTW9oYW1tZWQiLCJpYXQiOjE2ODA5NTQyODN9.2uo249FSkUW6cNAdhuAE9SXoo8dhjz-Y3Gk3ZlXeZow
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Audhil"
+}
+###
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQXVkaGlsIiwiaWF0IjoxNjgwOTU0Njk1fQ.vKKSOAW_eqrkqqVMZQYpmc9mH2dr-vFHdUhAWGR5aR0
