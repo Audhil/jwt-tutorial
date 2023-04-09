@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart" : "nodemon server.js",
-    "devStart2" : "nodemon server2.js",
-    "devStartAuth" : "nodemon authServer.js",
+    "devStart": "nodemon server.js",
+    "devStart2": "nodemon server2.js",
+    "devStartAuth": "nodemon authServer.js",
+    "devAuthentication": "nodemon authentication/authentication.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0"

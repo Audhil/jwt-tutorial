@@ -33,3 +33,24 @@ Content-Type: application/json
 {
     "username": "Audhil"
 }
+
+//  Authorization tutorial
+###
+GET http://localhost:2001/users
+###
+POST http://localhost:2001/users
+Content-Type: application/json
+
+{
+    "name": "Audhil",
+    "password": "jack and jill"
+}
+###
+POST http://localhost:2001/users/login
+Content-Type: application/json
+
+{
+    "name": "Audhil",
+    "password": "jack and jill"
+}
+###
