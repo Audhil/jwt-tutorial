@@ -1,5 +1,7 @@
 # jwt-tutorial
 
+JWT is used in authorization with multiple server, not an authentication functionality
+
 #8Apr2023
 jwt tutorial in nodejs project
 
