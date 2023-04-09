@@ -21,5 +21,5 @@ add the following in,
 
 
 # to get random secret keys
-# $ node
-# > require('crypto').randomBytes(64).toString('hex') - https://youtu.be/mbsmsi7l3r4?t=514
+$ node \
+> require('crypto').randomBytes(64).toString('hex') - https://youtu.be/mbsmsi7l3r4?t=514
